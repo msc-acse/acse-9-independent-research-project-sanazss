@@ -13,7 +13,7 @@ The repository contains training, testing, and inference code in PyTorch.
 * train.txt : path to the training data.
 * validation.txt : path to validation data.
 # Labels
-* Bounding box labels are created from X and Y coordinates of objects center and with and hight coordinates of objects in txt format.
+* Bounding box labels are created from X and Y coordinates of objects center and width and hight coordinates of objects in txt format.
 * Each label txt file has five columns including class index, X, Y, W, H.
 * Labels and image files are placed in the same folder.
 # CFG file

@@ -25,5 +25,5 @@ Start training: python3 train.py to begin training on SAR data. Each epoch train
 # Inference
 Run detect.py on inference images. Put your inference images in a file named samples in the data folder.
 # Evaluation
-Run python3 test.py --weights weights/best.pt to test best checkpoint.
+Run python3 test.py --weights weights/best.pt to test best checkpoint on validation set.
 Run python3 checkpoint.py to get the best fitness value and epochs of the best checkpoint.

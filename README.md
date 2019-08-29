@@ -19,7 +19,7 @@ The repository contains training, testing, and inference code in PyTorch.
 # CFG file
 The cfg file contains the structure of the network. It should be updated based on the number of classes.
 # Weights
-The best and last weights are saved in weights folder.
+Create weights folder. The best and last weights of a model are saved in this folder.
 # Training
 Start training: python3 train.py to begin training on SAR data. Each epoch trains on SAR images and test on SAR validation set.
 # Inference

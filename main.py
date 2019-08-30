@@ -9,4 +9,3 @@ import utils
 utils.plot_results_orig() #plotting the results
 
 !python3 detect.py #detection on inference image
-
